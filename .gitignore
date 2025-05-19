@@ -1,0 +1,45 @@
+# Learn more: https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+
+# Expo-related
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Firebase/credentials
+*.key
+*.pem
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+firebase-debug.log
+
+# System & cache files
+.DS_Store
+*.orig.*
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+*.swp
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
+
+# Metro bundler health checks
+.metro-health-check*
+
+# Misc
+.idea/
+.vscode/
+app-example
